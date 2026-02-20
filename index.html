@@ -506,11 +506,12 @@ Into Castelfranco Town</h3>
         }
         // --- 3. 详情弹窗与数据 ---
         const projectData = {
-            'ai': { title: 'AI Agent & Generative Workflow', meta: 'Research / AIGC', desc: '探索 AIGC 在建筑方案阶段的精确控制。', images: ['https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800'] },
-            'swp': { title: 'Studio Woodroffe Papa Works', meta: 'London Practice', desc: '参与伦敦多处集合住宅设计。', images: ['https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800'] },
-            'project1': { title: 'Parametric Urban Framework', meta: 'Award-winning Project 2024', desc: '基于生成式设计的可持续城市改造方案。融合Grasshopper参数化逻辑与AI优化算法。', images: ['https://images.pexels.com/photos/3721547/pexels-photo-3721547.jpeg?auto=compress&cs=tinysrgb&w=1200'] },
-            'project2': { title: 'AI Agent Workflow System', meta: 'Research & Development', desc: '开发基于Coze/Dify的AI工作流系统。在London Design Awards 2025获得金奖。', images: ['https://images.pexels.com/photos/1114690/pexels-photo-1114690.jpeg?auto=compress&cs=tinysrgb&w=1200'] },
-            'project3': { title: 'Environmental CFD Analysis', meta: 'Simulation & Optimization', desc: '结合Honeybee/Ladybug CFD模拟与Enscape渲染的环境分析方案。', images: ['https://images.pexels.com/photos/3175150/pexels-photo-3175150.jpeg?auto=compress&cs=tinysrgb&w=1200'] }
+            'project1': { title: 'Parametric Urban Framework', meta: 'Award-winning Project 2024', desc: '基于生成式设计的可持续城市改造方案。融合Grasshopper参数化逻辑与AI优化算法。', images: ['https://i.postimg.cc/sXHr0p0p/AI_Researcher_image.jpg', 'https://images.pexels.com/photos/3721547/pexels-photo-3721547.jpeg?auto=compress&cs=tinysrgb&w=1200'] },
+            'project2': { title: 'LLANDAFF GALLERY', meta: '2025 Award-winning Project', desc: '结合Honeybee参数化热环境模拟和CFD算法，模拟室内最佳日照效果；多轮测算屋顶流线型设计，优化美术馆室内微气候，室外风环境与内部自然通风设计。', images: ['https://i.postimg.cc/Qt978sNS/Architect-Portfolio-2025.jpg', 'https://images.pexels.com/photos/1114690/pexels-photo-1114690.jpeg?auto=compress&cs=tinysrgb&w=1200'] },
+            'project3': { title: 'Passive Design - High Rise Residence', meta: 'Simulation & Optimization 2024/4 - 2024/9', desc: '基于社区用户实地调研采访，结合Honeybee热环境模拟和CFD算法，通过可持续设计和外立面改造，解决高层住宅冬冷夏热问题，优化高层住宅的自然通风与热舒适设计。', images: ['https://i.postimg.cc/j50fSmDQ/CFD-lines-da-da-Base.png', 'https://images.pexels.com/photos/3175150/pexels-photo-3175150.jpeg?auto=compress&cs=tinysrgb&w=1200', 'https://images.pexels.com/photos/3721547/pexels-photo-3721547.jpeg?auto=compress&cs=tinysrgb&w=1200'] },
+            'project4': { title: 'Community Center: Into Castelfranco Town', meta: '2022/3 - 2022/7', desc: '基于对当地居民的调研，设计流线型可持续社区中心，提供活动室，Cafe，求职中心以解决小镇居民诉求，提升居民参与度与城镇凝聚力。', images: ['https://i.postimg.cc/26PyjZ3n/Community-Center-Castelfranco-Rendering-01.jpg'] },
+            'swp': { title: 'Studio Woodroffe Papa Works', meta: 'London Practice | 2025/06 - Present', desc: '伦敦工作室: 负责沙特城市规划改造项目和比利时公共建筑项目的 Rhino 建模与参数化模拟。结合Honeybee/Ladybug CFD模拟，完成沙特城市规划的微气候分析与光热优化。提升建筑群的通风效率和能源效能。', images: ['https://i.postimg.cc/rwn44gmy/Gemini-Generated-Image-urz1xeurz1xeurz1.png'] },
+            'BAID': { title: 'BAID - Beijing Architects', meta: 'Architecture Practice | 2022/10 - 2023/03', desc: '北京建筑事务所Part 1 Architect Assistant: 协助主创设计师完成大型文旅项目,国际医院,泰康养老项目的Rhino 3D建模,Enscape渲染,PS绘图,外立面优化等方案深化工作。', images: ['https://i.postimg.cc/sxkBFvcW/BAID.png'] }
         };
         let currentProjectId = null;
         function showProject(id) {
